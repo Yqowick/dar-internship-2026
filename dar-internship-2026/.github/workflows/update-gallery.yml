@@ -1,0 +1,27 @@
+name: Update intern gallery
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-gallery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate gallery manifest
+        run: node generate-index.js
+
+      - name: Commit manifest changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update intern gallery manifest
+          file_pattern: pages/index.json
