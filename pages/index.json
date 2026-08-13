@@ -40,6 +40,11 @@
     "path": "pages/jacques_kalayjian.html"
   },
   {
+    "file": "Jana-Jrab.html",
+    "name": "Jana Jrab",
+    "path": "pages/Jana-Jrab.html"
+  },
+  {
     "file": "Karim_Assi.html",
     "name": "Karim Assi",
     "path": "pages/Karim_Assi.html"
@@ -93,10 +98,5 @@
     "file": "Serena-Stephan.html",
     "name": "Serena Stephan",
     "path": "pages/Serena-Stephan.html"
-  }
-  {
-    "file": "Jana-Jrab.html",
-    "name": "Jana Jrab",
-    "path": "pages/Jana-Jrab.html"
   }
 ]
