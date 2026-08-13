@@ -80,6 +80,11 @@
     "path": "pages/Muhammad-AlNatour.html"
   },
   {
+    "file": "Omar-Serhal.html",
+    "name": "Omar Serhal",
+    "path": "pages/Omar-Serhal.html"
+  },
+  {
     "file": "Rabih-Kiwan.html",
     "name": "Rabih Kiwan",
     "path": "pages/Rabih-Kiwan.html"
@@ -98,10 +103,5 @@
     "file": "Serena-Stephan.html",
     "name": "Serena Stephan",
     "path": "pages/Serena-Stephan.html"
-  },
-  {
-  "file": "Omar-Serhal.html",
-  "name": "Omar Serhal",
-  "path": "pages/Omar-Serhal.html"
-}
+  }
 ]
