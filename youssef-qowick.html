@@ -1,11 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first portfolio </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Engineering Student - CV</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+      padding: 30px 15px;
+    }
+
+    .cv-container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .header {
+      background: linear-gradient(135deg, #1d4ed8, #2563eb);
+      color: white;
+      padding: 40px;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .content {
+      padding: 35px 40px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #2563eb;
+      font-size: 22px;
+      margin-bottom: 15px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+
+    .summary {
+      color: #4b5563;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 12px;
+    }
+
+    .skill {
+      background: #eff6ff;
+      padding: 12px;
+      border-radius: 8px;
+    }
+
+    .skill strong {
+      color: #1d4ed8;
+    }
+
+    .project {
+      margin-bottom: 20px;
+      border-left: 4px solid #2563eb;
+      padding-left: 15px;
+    }
+
+    .project h3 {
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+
+    .project p {
+      color: #4b5563;
+    }
+
+    .education h3 {
+      margin-bottom: 5px;
+    }
+
+    .education p {
+      color: #4b5563;
+    }
+
+    .item {
+      margin-bottom: 8px;
+      color: #4b5563;
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        padding: 25px;
+      }
+
+      .header h1 {
+        font-size: 28px;
+      }
+
+      .content {
+        padding: 25px;
+      }
+    }
+  </style>
 </head>
+
 <body>
+
+  <div class="cv-container">
+
+    <header class="header">
+      <h1>Software Engineering Student</h1>
+      <p>
+        Computer Science • Full-Stack Development • Problem Solving
+      </p>
+    </header>
+
+    <div class="content">
+
+      <!-- Summary -->
+      <section>
+        <h2>Professional Summary</h2>
+
+        <p class="summary">
+          Computer Science student specializing in Software Engineering
+          with experience in full-stack web development.
+          Skilled in problem-solving, data structures, algorithms,
+          and building responsive applications.
+          Passionate about learning new technologies and developing
+          efficient software solutions.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <section>
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+
+          <div class="skill">
+            <strong>Front-End:</strong><br>
+            HTML5, CSS3, JavaScript, Bootstrap, React,
+            GSAP, AJAX, AOS.js
+          </div>
+
+          <div class="skill">
+            <strong>Back-End:</strong><br>
+            PHP, OOP, Design Patterns, Middleware,
+            API Integration, RESTful Services, JSON
+          </div>
+
+          <div class="skill">
+            <strong>Databases:</strong><br>
+            MySQL
+          </div>
+
+          <div class="skill">
+            <strong>Mobile Development:</strong><br>
+            Flutter, Dart
+          </div>
+
+          <div class="skill">
+            <strong>Programming:</strong><br>
+            Python, C++, Data Structures,
+            Algorithms, Problem Solving
+          </div>
+
+          <div class="skill">
+            <strong>Tools:</strong><br>
+            Git, GitHub
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+          <h3>Full-Stack E-learning Management System</h3>
+
+          <p>
+            Developed a full-stack platform using PHP and MySQL
+            where teachers can upload courses and students can enroll.
+            Implemented authentication, course management,
+            and a reward system for high-achieving students.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Car Rental System</h3>
+
+          <p>
+            Developed a responsive Car Rental System
+            with user and admin panels for browsing cars,
+            managing bookings, inventory,
+            and customer data.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>IoT Fire Detection System</h3>
+
+          <p>
+            Developed an IoT-based fire detection and alert system
+            using Flutter and Firebase.
+
+            Implemented real-time sensor monitoring,
+            instant notifications,
+            and emergency alert features.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Hotel Booking and Management System</h3>
+
+          <p>
+            Developed a hotel reservation management system
+            using C++ OOP, file handling,
+            and linked-list data structures
+            for efficient record keeping.
+          </p>
+        </div>
+
+      </section>
+
+      <!-- Education -->
+      <section>
+        <h2>Education</h2>
+
+        <div class="education">
+
+          <h3>
+            B.S. in Computer Science
+            - Software Engineering
+          </h3>
+
+          <p>
+            October University for Modern Science & Arts
+            (MSA University)
+          </p>
+
+          <p>
+            2023 - 2027
+          </p>
+
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section>
+        <h2>Certifications</h2>
+
+        <p class="item">
+          Introduction to MongoDB - Mahara-Tech
+        </p>
+
+      </section>
+
+      <!-- Languages -->
+      <section>
+        <h2>Languages</h2>
+
+        <p class="item">
+          Arabic - Native
+        </p>
+
+        <p class="item">
+          English - Advanced (C1)
+        </p>
+
+      </section>
+
+    </div>
+
+  </div>
 
 </body>
 </html>
